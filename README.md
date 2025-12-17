@@ -34,7 +34,9 @@ gcc exposure_controller.c -o exposure_controller
 ## Prerequisites
 
 Everything was included from default on a Pi 4 running Raspberry Pi OS 64-bit.
-Who knows what it actually needs :confused:
+
+The system requires V4L2 headers, which are included in the `libv4l-dev` package on Debian-based systems. (This is standard on Linux machines with video support however.)
+The experiment also requires a camera.
 
 ## References and Links
 
